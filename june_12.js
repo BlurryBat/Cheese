@@ -12,7 +12,7 @@ window.onload = function() {
         if(text === "smile") {
             document.getElementById('blank').readOnly = true;
             document.getElementById("blank").style.border="1px solid green";
-            document.getElementById("img_here").src="/Volumes/workplace/test/smile.jpeg";
+            document.getElementById("img_here").src="https://raw.githubusercontent.com/BlurryBat/Cheese/0efa3e59e7579e7930a39442a07920d241eb3bec/smile.jpeg";
             startConfetti();
         } else {
             document.getElementById("blank").style.border="1px solid red";
